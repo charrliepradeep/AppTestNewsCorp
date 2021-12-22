@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="tests">
+		<listeners>
+			<listener class-name="com.qa.listeners.TestListener" />
+		</listeners>	
+		<parameter name="emulator" value="true" />
+		<parameter name="platformName" value="Android" />
+		<parameter name="udid" value="emulator-5554" />
+		<parameter name="deviceName" value="emulator" />		
+		<parameter name="systemPort" value="4724" />
+<!-- 		<parameter name="chromeDriverPort" value="11000" /> -->		
+	<test name="emulator-5554" preserve-order="true">
+		<classes>
+			<!-- <class name="com.qa.tests.NYPostTest"></class> -->
+		<!-- 	<class name="com.qa.tests.dailyTelegraph"></class>	 -->
+			<!-- 	<class name="com.qa.tests.LandingPage_NYP"></class>
+		 	<class name="com.qa.tests.NYPTest"></class>-->
+		<class name="com.qa.tests.MonkeyADBShell"></class>
+		</classes>
+	</test>
+<!--	<test name="iPhone11">-->
+<!--		<listeners>-->
+<!--			<listener class-name="com.qa.listeners.TestListener" />-->
+<!--		</listeners>-->
+<!--		<parameter name="platformName" value="iOS" />-->
+<!--		<parameter name="udid" value="replace_with_device_udid" />-->
+<!--		<parameter name="deviceName" value="iPhone11" />-->
+<!--		<parameter name="wdaLocalPort" value="8100" />-->
+<!--		<parameter name="webkitDebugProxyPort" value="11001" />-->
+<!--		<classes>-->
+<!--			<class name="com.qa.tests."></class>-->
+<!--			<class name="com.qa.tests."></class>-->
+<!--		</classes>-->
+<!--	</test>-->
+</suite>
+		<!-- Suite -->
