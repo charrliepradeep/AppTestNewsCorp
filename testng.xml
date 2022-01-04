@@ -14,9 +14,9 @@
 		<classes>
 			<!-- <class name="com.qa.tests.NYPostTest"></class> -->
 		<!-- 	<class name="com.qa.tests.dailyTelegraph"></class>	 -->
-			<!-- 	<class name="com.qa.tests.LandingPage_NYP"></class>
-		 	<class name="com.qa.tests.NYPTest"></class>-->
-		<class name="com.qa.tests.MonkeyADBShell"></class>
+				<class name="com.qa.tests.LandingPage_NYP"></class>
+		 	<!-- <class name="com.qa.tests.NYPTest"></class>
+		<class name="com.qa.tests.MonkeyADBShell"></class>-->
 		</classes>
 	</test>
 <!--	<test name="iPhone11">-->
